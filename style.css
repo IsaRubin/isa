@@ -77,21 +77,3 @@ table
     text-align: center;  
     margin: auto;    
 }
-
-table.table tr
-{
-    cursor.pointer;
-}
-
-<script>
-<button id="enviar" class="botao_formulario">Enviar</button>
-<button class="botao_formulario">Apagar</button>
-
-<script>
-var botao = document.getElementById("enviar");
-botao.onclick = enviarFormulario;
-
-function enviarFormulario() {
-alert("Dados enviados");
-}
-</script>
