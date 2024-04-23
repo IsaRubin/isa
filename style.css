@@ -77,3 +77,15 @@ table
     text-align: center;  
     margin: auto;    
 }
+
+.par{
+    font-size: 16pt;
+    font-family: arial;
+    color: red;
+}
+
+.impar{
+    font-size: 20pt;
+    font-family: verdana;
+    color: blue;
+}
